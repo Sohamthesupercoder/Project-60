@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(to bottom, aquamarine, white);
+    background-repeat: no-repeat;
+}
+
+.menu {
+    list-style: none;
+    font-family: cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+}
+
+#my hobby reviews {
+    background: linear-gradient(#68fcf8 0%, #0810b9 100%);
+}
+
+.link {
+    font: cursive;
+}
+
+.link:hover {
+    background-color: blue;
+}
+
+#pic {
+    margin-left: 200px;
+}
+
+#button {
+    height: 100px;
+    width: 150px;
+    background-color: chartreuse;
+}
+
+.img {
+    height: 300px;
+    width: 300px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#image {
+    transition: transform .2s;
+    height: 550px;
+    width: 550px;
+}
+
+#image:hover {
+    transform: scale(0.9);
+}
